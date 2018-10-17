@@ -1,7 +1,7 @@
 Automation Framework design
 ============================
 
-###Introduction
+## Introduction ##
 Test automation framework is designed using Selenium Webdriver, Java, cucumber, Junit and is mavenised, and designed in page object model.
 
 
