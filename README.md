@@ -44,7 +44,7 @@ Logic of user defined was not completely clear to me from the instruction.
 My understanding was the rule ‘The check digit for a SEDOL is chosen to make the total weighted sum of all seven characters a multiple of 10.’  Is for user defined. 
 When tested manually the SEDOL for the 4th scenario (9123451 & 9ABCDE8) against the above rule and was NOT valid. In the 5th scenario (9123458 & 9ABCDE1) the above rule is VALID. So either the SEDOL given in the fourth scenario is wrong or the above rule mentioned is not complete. 
 
-SO, with this Have this Ambiguity in mind, and I haven’t implemented the code for the is UserDefined() method. 
+SO, with this ambiguity in mind, and I haven’t implemented the code for the is UserDefined() method. 
 At the moment this method, just intakes the Value from the cucumber file and validates the same.
 
 NOTE: This can be implemented when we have the requirements clearely.
